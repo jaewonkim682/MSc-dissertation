@@ -26,13 +26,13 @@ while 1:
     import scipy.io
     
     #bring paths to collect multispectral images of infected and uninfected leaves 
-    path_infected='C:/Users/jaewo/OneDrive - The University of Manchester/Experiment-8/Day28/mat file/infected'
-    path_uninfected='C:/Users/jaewo/OneDrive - The University of Manchester/Experiment-8/Day28/mat file/uninfected'
+    path_infected=''
+    path_uninfected=''
     
     #type the numbmer of patches and samples
-    no_of_infected_samples=18
-    no_of_uninfected_samples=18
-    no_of_patch=7
+    no_of_infected_samples=
+    no_of_uninfected_samples=
+    no_of_patch=
     
     #count the total number of patches
     infected_patch_total_number = no_of_infected_samples*no_of_patch
