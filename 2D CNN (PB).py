@@ -23,7 +23,8 @@ while 1:
     from sklearn.model_selection import train_test_split
     from sklearn.utils import shuffle
     import scipy.io
-    
+   
+   ##############################################################################
    #bring paths to collect multispectral images of infected and uninfected leaves 
    path_infected=''
    path_uninfected=''
@@ -32,7 +33,8 @@ while 1:
    no_of_infected_samples=
    no_of_uninfected_samples=
    no_of_patch=
-    
+   ##############################################################################
+
     #count the total number of patches
     infected_patch_total_number = no_of_infected_samples*no_of_patch
     uninfected_patch_total_number = no_of_uninfected_samples*no_of_patch
